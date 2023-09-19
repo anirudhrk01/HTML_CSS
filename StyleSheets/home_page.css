@@ -1,0 +1,247 @@
+html {
+    margin: 0%;
+}
+
+body {
+    margin: 0%;
+    left: 0%;
+}
+
+#headerTag h1 {
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: xxlarge;
+    color: white;
+    text-align: center;
+    top: 0px;
+    position: fixed;
+    height: 40px;
+    width: 100%;
+}
+
+#navigationbar {
+    margin: 0%;
+    top: 40px;
+    position: fixed;
+    width: 100%;
+}
+
+#navigationbaritems {
+    margin: 0%;
+    background-color: rgb(44, 43, 43);
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 15px, 0px, 15px, 0px;
+}
+
+#navigationbaritems li {
+    display: inline-block;
+    width: 150px;
+    padding: 5px;
+}
+
+#navigationbaritems li:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.dropdown a {
+    color: rgb(248, 248, 248);
+    text-align: left;
+    font-size: smaller;
+}
+
+.dropdown {
+    margin: 0%;
+    display: none;
+    text-align: left;
+    max-width: 145px;
+    padding: 0%;
+    position: absolute;
+    background-color: rgb(128, 128, 128);
+}
+
+.imgbox {
+    width: 100%;
+    height: 100%;
+}
+
+#navigationbaritems li:hover .dropdown {
+    float: left;
+    display: block;
+    padding: 0%;
+    width: auto;
+    overflow: hidden;
+}
+
+.imganimation {
+    display: flex;
+    margin-top: 10px;
+    width: 100%;
+    height: 300px;
+    margin-left: -10%;
+    top: 50px;
+    left: 1px;
+    position: absolute;
+    transform: translate(10%, 2%);
+    overflow: hidden;
+    z-index: -1;
+    border-style: double;
+    border: 20px steelblue;
+}
+
+.slide {
+    width: 100%;
+    display: flex;
+    animation-name: fade;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.slide img {
+    width: 100%;
+    padding: 15px;
+}
+
+@keyframes fade {
+    0% {
+        transform: translate(0%);
+    }
+
+    25% {
+        transform: translate(-25%);
+    }
+
+    50% {
+        transform: translate(-75%);
+    }
+
+    75% {
+        transform: translate(-130%);
+    }
+
+    100% {
+        transform: translate(0%);
+    }
+}
+
+.covidproducts {
+    left: 0px;
+    top: 400px;
+    margin-top: 400px;
+}
+
+.covidproducts h2 {
+    left: 0px;
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    height: 35px;
+    width: 100%;
+}
+.product {
+   
+    padding: 80px 0px;
+    text-align: left;
+  }
+.product div {
+    left: 0%;
+    display: inline-block;
+    bottom: 35px;
+    width: 307px;
+}
+
+.singleProductConfig {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    border-radius: 12px;
+    background-color: rgb(241, 240, 248);
+    padding: 16px;
+    box-shadow: -5px 7px 11px -6px rgba(0, 0, 0, 0.75);
+    bottom: 45px;
+}
+
+.singleProductConfig h3 {
+    margin-top: 2%;
+    margin-left: 8px;
+    height: 6px;
+}
+
+.singleProductConfig img {
+    width: 100%;
+    height: 145px;    
+
+}
+
+.singleProductConfig:hover {
+    margin-left: 25px;
+    width: 210px;
+    height: 260px;
+}
+
+.singleProductConfig h4 {
+    position: static;
+    text-align: justify;
+    margin: 2%;
+    font-size: medium;
+    color: rgb(108, 93, 247);
+}
+
+.singleProductConfig button {
+    position: static;
+    margin-left: 25px;
+    margin-bottom: 5px;
+    padding: 5px;
+    width: 80%;
+    height: auto;
+    border: 2px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: rgb(217, 215, 247);
+    text-align: center;
+}
+
+.singleProductConfig button:active {
+    background-color: rgb(250, 234, 230);
+    border: 1px solid;
+    border-color: rgb(0, 255, 76);
+}
+.diabetesproducts h2{
+    left: 0%;
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 35px;
+    color: white;
+    height: 35px;
+    width: 100%;
+}
+.diabetesproducts {
+    left: 0%;
+    margin: 0%;
+    background-color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: xxlarge;
+    color: black;
+    height: 30px;
+    width: 100%;
+}
+
+
+#copyright {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
