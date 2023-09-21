@@ -1,2 +1,5 @@
-# G3B1_HTML-CSS_GradedProject1
-frontend 1 lab
+#Pharmacy Shop Website Development
+-----------------------------------
+HTML
+CSS
+JavaScript
